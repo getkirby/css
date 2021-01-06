@@ -1,0 +1,137 @@
+.prose {
+  line-height: var(--leading-normal);
+}
+.prose :first-child {
+  margin-top: 0;
+}
+.prose :last-child {
+  margin-bottom: 0;
+}
+.prose a {
+  text-decoration: underline;
+}
+.prose p,
+.prose ol,
+.prose ul {
+  margin-bottom: var(--spacing-6);
+}
+.prose ol,
+.prose ul {
+  margin-left: 1rem;
+}
+.prose ol p,
+.prose ul p {
+  margin-bottom: 0;
+}
+.prose ol > li {
+  list-style: decimal;
+}
+.prose ol > li::marker {
+  color: var(--color-gray-500);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+}
+.prose ul > li {
+  list-style: disc;
+}
+.prose ul ul > li {
+  list-style: circle;
+}
+.prose ol ul,
+.prose ol ol,
+.prose ul ol,
+.prose ul ul {
+  margin-bottom: 0;
+}
+.prose h1 {
+  margin-bottom: var(--spacing-5);
+}
+.prose h2 {
+  margin-bottom: var(--spacing-5);
+}
+.prose h3 {
+  margin-bottom: var(--spacing-5);
+}
+.prose code {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  background: var(--color-light);
+  padding: 0 var(--spacing-2);
+  display: inline-block;
+  border-radius: var(--rounded);
+  color: inherit;
+}
+.prose pre {
+  margin: var(--spacing-12) 0;
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: var(--spacing-6);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  line-height: var(--leading-normal);
+  border-radius: var(--rounded);
+}
+.prose pre code {
+  padding: 0;
+  font-size: var(--text-xs);
+  border-radius: 0;
+  background: none;
+}
+.prose hr {
+  margin: var(--spacing-12) 0;
+  height: var(--spacing-2px);
+  background: var(--color-black);
+  width: var(--spacing-6);
+}
+.prose dt {
+  font-weight: var(--font-bold);
+}
+.prose blockquote {
+  font-size: var(--text-xl);
+  line-height: var(--leading-snug);
+  border-left: var(--spacing-2px) solid var(--color-black);
+  padding-left: var(--spacing-4);
+  margin: var(--spacing-12) 0;
+  max-width: 25rem;
+}
+.prose blockquote p:last-of-type {
+  margin-bottom: 0;
+}
+.prose blockquote footer {
+  font-size: var(--text-sm);
+  font-style: italic;
+  padding-top: var(--spacing-1);
+}
+.prose figure {
+  margin: var(--spacing-12) 0;
+}
+.prose figcaption {
+  padding-top: var(--spacing-3);
+  color: var(--color-text-grey);
+}
+.prose table {
+  border: 1px solid var(--color-light);
+  border-radius: var(--rounded);
+  overflow: hidden;
+}
+.prose th,
+.prose td {
+  border-bottom: 1px solid var(--color-light);
+  font-size: var(--text-sm);
+  line-height: inherit;
+  padding: .5rem .75rem;
+}
+.prose th {
+  font-weight: var(--font-bold);
+  white-space: nowrap;
+}
+.prose tr th:last-child,
+.prose tr td:last-child {
+  border-right: 0;
+}
+.prose tr:nth-child(odd) td {
+  background: var(--color-gray-100);
+}
+.prose tr:last-child td {
+  border-bottom: 0;
+}

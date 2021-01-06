@@ -1,0 +1,90 @@
+.bg-black {
+  background: var(--color-black);
+}
+.bg-light {
+  background: var(--color-light);
+}
+.bg-white {
+  background: var(--color-white);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: var(--spacing-6);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.mb-3 {
+  margin-bottom: .75rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.p-3 {
+  padding: .75rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-12 {
+  padding: 3rem;
+}
+.px-3 {
+  padding-bottom: .75rem;
+  padding-top: .75rem;
+}
+.px-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.px-12 {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.rounded {
+  border-radius: var(--rounded);
+}
+
+.shadow {
+  box-shadow: var(--shadow);
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+}
+.text-sm {
+  font-size: var(--text-sm);
+}
+.text-base {
+  font-size: var(--text-base);
+}
+.text-lg {
+  font-size: var(--text-lg);
+}
+.text-xl {
+  font-size: var(--text-xl);
+}
+.text-2xl {
+  font-size: var(--text-2xl);
+  line-height: 1.175em;
+}
+
+.underline {
+  text-decoration: underline;
+}

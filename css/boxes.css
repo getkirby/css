@@ -1,0 +1,33 @@
+.box {
+  --color-bg: var(--color-light);
+  --color-border: var(--color-black);
+  --color-icon: var(--color-border);
+  padding: var(--spacing-3) var(--spacing-4);
+  border-left: var(--spacing-2px) solid var(--color-border);
+  background: var(--color-bg);
+  border-radius: var(--rounded);
+  display: flex;
+}
+.box svg {
+  flex-shrink: 0;
+  margin-top: var(--spacing-1);
+  margin-right: var(--spacing-3);
+}
+.box svg * {
+  fill: var(--color-icon);
+}
+.box--info {
+  --color-bg: var(--color-blue-200);
+  --color-border: var(--color-blue-400);
+  --color-icon: var(--color-blue-500);
+}
+.box--warning {
+  --color-bg: var(--color-yellow-200);
+  --color-border: var(--color-yellow-300);
+  --color-icon: var(--color-yellow-400);
+}
+.box--alert {
+  --color-bg: var(--color-red-200);
+  --color-border: var(--color-red-400);
+  --color-icon: var(--color-red-500);
+}

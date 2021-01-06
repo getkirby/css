@@ -1,0 +1,32 @@
+.h1,
+.prose h1 {
+  font-weight: var(--font-bold);
+  font-size: var(--text-4xl);
+  line-height: var(--leading-tight);
+}
+.h2,
+.prose h2 {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+  line-height: var(--leading-tight);
+}
+.h3,
+.prose h3 {
+  font-size: var(--text-2xl);
+  line-height: var(--leading-tight);
+  font-weight: var(--font-bold);
+}
+.h4,
+.prose h4 {
+  font-size: var(--text-xl);
+  font-weight: var(--font-bold);
+}
+.h5,
+.prose h5 {
+  font-weight: var(--font-bold);
+}
+.h6,
+.prose h6 {
+  font-size: var(--text-sm);
+  font-family: var(--font-mono);
+}

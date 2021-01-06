@@ -1,0 +1,32 @@
+button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn {
+  --color: currentColor;
+  --text: currentColor;
+  display: inline-flex;
+  padding: .5rem 1.5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-sm);
+  color: var(--text);
+  border: 2px solid var(--color);
+  border-radius: var(--rounded);
+  font-family: var(--font-mono);
+  font-weight: var(--font-bold);
+}
+.btn:hover {
+  box-shadow: var(--shadow-lg);
+}
+.btn svg {
+  margin-right: .75rem;
+}
+.btn--filled {
+  --color: var(--color-black);
+  --text: var(--color-white);
+  border-color: var(--color);
+  background: var(--color);
+  color: var(--text);
+}
